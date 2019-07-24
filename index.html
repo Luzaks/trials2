@@ -1,36 +1,50 @@
-<!DOCTYPE html><html>
-<head>
-    
-</head>
-<body>
-    <h1 id="title">
-     Surver Form:</h1>
-     <p id="description">This is a number of questions.</p>
-
-     <form id="survey-form" action="">
-
-        <label id="name-label" for="">What is your name?</label>
-        <input id="name" type="text" placeholder="Enter your name:">
-        <label><input id="gender" type="radio" name="gender2">Female </label>
-        <label><input id="gender" type="radio" name="gender2">Male </label>
-
-        <label id="email-label" for="">What is your email?</label>
-        <input id="email" type="email" placeholder="Enter your email:">
-
-        <label id="number-label" for="">What number?</label>
-        <input id="number" type = "number" min="1" max="100" placeholder="Enter a number:">
-        <select id="dropdown" onchange="alert(this.value)"> 
-                <option value="0">Select</option>
-                <option value="8">text1</option>
-                <option value="5">text2</option>
-                <option value="4">text3</option>
-               </select> 
-        <label><input id="check" type="checkbox" name="check" value="integer">Integer</label>
-        <label><input id="check" type="checkbox" name="check" value="float">Float</label>
-        <label><input id="check" type="checkbox" name="check" value="operation">Operation</label>
-        <label><input id="check" type="checkbox" name="check" value="double">Double</label>
-    </form>
-
-
-</body>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1 id="title">
+            Surver Form:</h1>
+            <p id="description">This is a number of questions.</p>
+       
+            <form id="survey-form" action="">
+       
+               <label id="name-label" for="">What is your name?</label>
+               <input id="name" type="text" placeholder="Enter your name:"><br>
+       
+               <label><input id="gender" type="radio" name="gender2" value="Female">Female </label>
+               <label><input id="gender" type="radio" name="gender2" value="Male">Male </label><br>
+       
+               <label id="email-label" for="">What is your email?</label>
+               <input id="email" type="email" placeholder="Enter your email:"><br>
+       
+               <label id="number-label" for="">What number?</label>
+               <input id="number" type = "number" min="1" max="100" placeholder="Enter a number:">
+               <select id="dropdown" onchange="alert(this.value)"> 
+                       <option value="0">Select</option>
+                       <option value="8">text1</option>
+                       <option value="5">text2</option>
+                       <option value="4">text3</option>
+                      </select> 
+               <label><input id="check" type="checkbox" name="check" value="integer">Integer</label>
+               <label><input id="check" type="checkbox" name="check" value="float">Float</label>
+               <label><input id="check" type="checkbox" name="check" value="operation">Operation</label>
+               <label><input id="check" type="checkbox" name="check" value="double">Double</label>
+               
+               <textarea name="" id="" cols="40" rows="5"></textarea><br>
+           </form><br>
+       
+       
+           <input id="submit" type="submit">
+        <script src="" async defer></script>
+    </body>
 </html>
